@@ -1,8 +1,11 @@
+import Rive from "@rive-app/react-canvas";
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="about">
+
+    <>
+    <div className="about" id="about">
       <div className="about-content">
         <h1>
           About Us <span>Our Story</span>
@@ -32,7 +35,12 @@ const About = () => {
           start of your next craving.
         </p>
       </div>
+      <div className="about-animation">
+       <Rive src="/animations/7843-15126-coffee.riv" autoplay />
+      </div>
+      
     </div>
+    </>
   );
 };
 

@@ -20,7 +20,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #ffffff;
   text-align: center;
   z-index: 1;
 }
@@ -33,20 +33,14 @@
 
 .hero-content p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
-.hero-content button {
-  padding: 0.8rem 1.5rem;
-  border: none;
-  border-radius: 4px;
-  background-color: #c49b63;
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.typed-text {
+  font-size: 1.2rem;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
-.hero-content button:hover {
-  background-color: #a47e50;
-}
+
+

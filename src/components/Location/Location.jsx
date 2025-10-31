@@ -3,7 +3,7 @@ import "./Location.css";
 
 const Location = () => {
   return (
-    <section className="locations-container">
+    <section className="locations-container" id="location">
       {/* Left Container */}
       <div className="location-card left">
         <div className="card-overlay">

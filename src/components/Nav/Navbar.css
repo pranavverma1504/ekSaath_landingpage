@@ -17,6 +17,9 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
+.logo:hover {
+  color: #c49b63; 
+}
 
 .nav-links {
   list-style: none;
@@ -32,5 +35,6 @@
 }
 
 .nav-links a:hover {
-  color: #c49b63; /* coffee brown tone */
+  color: #c49b63; 
+  cursor: pointer;
 }

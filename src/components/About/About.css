@@ -1,42 +1,49 @@
 .about {
-  width: 100%;
-  min-height: 70vh;
-  background-color: rgb(0, 0, 0);
-  color: white;
+  position: relative;
   display: flex;
-  justify-content: center; /* centers center div */
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  color: white;
   padding: 60px 20px;
-  gap: 20px; /* space between the three divs */
+  overflow: hidden;
+  height: 80vh;
+  width: 100%;
 }
-
 
 .about-content {
-  flex: 2; /* bigger than side divs */
-  max-width: 900px;
+  height: 80%;
+  width: 60%;
   text-align: center;
-  margin-top: 40px;
-  background-color: #000000;
+  z-index: 2;
+  
 }
 
-.about h1 {
-  font-size: 2.7rem;
-  margin-bottom: 30px;
-  letter-spacing: 1px;
+
+.about-animation {
+  position: absolute;
+  right: 8%;
+  bottom: 30%;
+  width: 220px;
+  height: 220px;
+  opacity: 0.9;
 }
 
-.about span {
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.about-content span{
   color: #c49b63;
+
 }
 
-.about p {
-  font-size: 1.05rem;
-  font-weight: 300;
+.about-content p{
+  margin-top: 40px;
+  padding: 20px;
   line-height: 1.8;
-  color: #ddd;
-  margin-bottom: 25px;
-}
-
-.about p:last-child {
-  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
 }
