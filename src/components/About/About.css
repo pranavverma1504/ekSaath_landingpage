@@ -47,3 +47,50 @@ canvas {
   font-size: 18px;
   font-weight: 500;
 }
+
+/* Responsive Design (No effect on desktop) */
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .about-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-content h1 {
+    font-size: 28px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .about-animation {
+    position: static;
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content h1 {
+    font-size: 24px;
+  }
+
+  .about-content p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .about-animation {
+    width: 150px;
+    height: 150px;
+    
+  }
+}

@@ -17,7 +17,6 @@
   box-shadow: 0 5px 20px rgba(0,0,0,0.5);
 }
 
-
 .location-card::before {
   content: "";
   position: absolute;
@@ -32,7 +31,6 @@
   z-index: 0;
   border-radius: 15px;
 }
-
 
 .left::before {
   background-image: url("/src/assets/images/bcg1.jpg");
@@ -93,10 +91,59 @@
 }
 
 .direction-btn:hover {
-   background-color: #a47e50;
+  background-color: #a47e50;
   transform: scale(1.05);
 }
+
 .locations-container a {
   text-decoration: none;
   color: inherit;
+}
+
+/* ✅ Responsive design — only below 768px */
+@media (max-width: 768px) {
+  .locations-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+    padding: 30px 10px;
+  }
+
+  .location-card {
+    flex: 0 0 auto;
+    width: 90%;
+    height: 40vh;
+  }
+
+  .card-overlay h1 {
+    font-size: 1.8rem;
+  }
+
+  .card-overlay h3 {
+    font-size: 1rem;
+  }
+
+  .card-overlay p {
+    font-size: 1rem;
+  }
+
+  .direction-btn {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .location-card {
+    height: 35vh;
+  }
+
+  .card-overlay h1 {
+    font-size: 1.5rem;
+  }
+
+  .card-overlay p {
+    font-size: 0.9rem;
+  }
 }
