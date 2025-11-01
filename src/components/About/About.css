@@ -75,6 +75,7 @@ canvas {
     width: 180px;
     height: 180px;
     margin-top: 30px;
+    display: none;
   }
 }
 
@@ -91,6 +92,7 @@ canvas {
   .about-animation {
     width: 150px;
     height: 150px;
+    display: none;
     
   }
 }
