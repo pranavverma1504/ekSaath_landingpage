@@ -48,7 +48,7 @@ canvas {
   font-weight: 500;
 }
 
-/* Responsive Design (No effect on desktop) */
+/* Responsive Design */
 @media (max-width: 768px) {
   .about {
     flex-direction: column;

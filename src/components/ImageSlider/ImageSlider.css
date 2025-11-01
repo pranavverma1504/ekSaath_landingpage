@@ -78,7 +78,7 @@
   background: #fff;
 }
 
-/* ✅ Responsive Design Fix */
+/*  Responsive Design  */
 
 /* Tablets */
 @media (max-width: 1024px) {
@@ -91,8 +91,8 @@
 
   .left-slider,
   .right-slider {
-    width: 90vw; /* 👈 identical width for both */
-    max-width: 700px; /* limit for tablet view */
+    width: 90vw; 
+    max-width: 700px; 
     box-sizing: border-box;
   }
 
@@ -118,7 +118,7 @@
 @media (max-width: 768px) {
   .left-slider,
   .right-slider {
-    width: 95vw; /* 👈 same width on mobile too */
+    width: 95vw; 
     max-width: 480px;
     box-sizing: border-box;
   }
