@@ -5,7 +5,7 @@ const Footer = () => {
     <>
     <div className="line-div"  id='contact'> 
       <div className="line"></div>
-    </div>
+    </div> 
     <footer>
 
       <div className="left-footer">
